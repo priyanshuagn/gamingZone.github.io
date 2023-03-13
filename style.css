@@ -1,0 +1,59 @@
+#nav
+{
+    top:0;
+    position:sticky;
+    z-index: 99;
+}
+.card:hover
+{ 
+    transform: translateY(-15px);
+}
+.contact-us, .about {
+    background-color: #333;
+    color: #fff;yy
+    padding:20px;
+    margin-bottom:20px;
+  }
+  
+  .contact-us h2, .about h2 {
+    margin-top: 0;
+  }
+  .carousel-item img{
+    height: 60%;
+  }
+  
+  .contact-us form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-us label, .contact-us input, .contact-us textarea {
+    margin-bottom: 10px;
+  }
+  
+  .contact-us label {
+    font-weight: bold;
+  }
+  
+  .contact-us input, .contact-us textarea {
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+  }
+  .slider{
+    z-index: -1;
+  }
+  .contact-us input[type="submit"] {
+    background-color: #2c6feb;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .about p {
+    line-height: 1.5;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+  }
+  #
